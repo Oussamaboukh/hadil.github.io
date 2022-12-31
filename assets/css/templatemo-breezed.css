@@ -407,6 +407,9 @@ header
   line-height: 40px;
 }
 
+.text-content p {
+    color: #fff;
+}
 @media (max-width: 767px) {
   .header-area .main-nav .nav .search-icon {
     float: none;
