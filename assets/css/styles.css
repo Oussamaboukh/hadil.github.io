@@ -77,7 +77,11 @@ img{
   border-radius: 70% 40% 50% 61% / 49% 40% 72% 67%;
 }
 .home__data {
-    width: 57%;
+    width: 55%;
+}
+
+.home__img {
+    width: 25%;
 }
 /*===== CLASS CSS ===== */
 .section-title{
