@@ -83,6 +83,10 @@ img{
 .home__img {
     width: 25%;
 }
+
+.about__container {
+    margin: 155px 10%;
+}
 /*===== CLASS CSS ===== */
 .section-title{
   position: relative;
