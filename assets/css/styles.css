@@ -74,6 +74,7 @@ img{
   max-width: 100%;
   height: auto;
   display: block;
+  border-radius: 70% 40% 50% 61% / 49% 40% 72% 67%;
 }
 
 /*===== CLASS CSS ===== */
