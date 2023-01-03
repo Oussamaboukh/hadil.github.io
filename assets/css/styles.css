@@ -76,7 +76,9 @@ img{
   display: block;
   border-radius: 70% 40% 50% 61% / 49% 40% 72% 67%;
 }
-
+.home__data {
+    width: 65%;
+}
 /*===== CLASS CSS ===== */
 .section-title{
   position: relative;
