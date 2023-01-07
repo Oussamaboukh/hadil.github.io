@@ -360,7 +360,7 @@ header
 }
 
 .header-area .main-nav .logo {
-  line-height: 80px;
+  width: 100%
   color: #fff;
   font-size: 28px;
   font-weight: 700;
@@ -642,11 +642,7 @@ header
 }
 
 .header-area.header-sticky {
-  min-height: 80px;
-}
-
-.header-area.header-sticky .nav {
-  margin-top: 20px !important;
+  min-height: 110px;
 }
 
 .header-area.header-sticky .nav li a.active {
