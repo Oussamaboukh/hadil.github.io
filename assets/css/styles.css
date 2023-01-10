@@ -53,11 +53,15 @@
 html{
   scroll-behavior: smooth;
 }
+ 
 body{
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+  background-image: url('../../background.jpeg') !important;
+  background-size: contain  !important;
+	
 }
 h1,h2,p{
   margin: 0;
@@ -85,7 +89,7 @@ img{
 }
 
 .about__container {
-    margin: 155px 10%;
+    margin: 0px 10%;
 }
 /*===== CLASS CSS ===== */
 .section-title{
@@ -180,16 +184,7 @@ img{
   cursor: pointer;
 }
 
-/*Active menu*/
-.active::after{
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: .18rem;
-  left: 0;
-  top: 2rem;
-  background-color: var(--first-color);
-}
+
 
 /*=== Show menu ===*/
 .show{
@@ -352,7 +347,13 @@ img{
   cursor: pointer;
   margin-left: auto;
 }
-
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #0000cc; /* couleur HEX plus foncée */
+    margin-top: 130px !important;
+    margin-bottom: 20px !important;
+  }
 /* ===== FOOTER =====*/
 .footer{
   background-color: var(--second-color);
@@ -374,6 +375,25 @@ img{
   margin: 0 var(--mb-2)
 }
 
+
+section#presentaion {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 10%;
+}
+
+.presentation-desc {
+    width: 50%;
+}
+
+.presentation-img {
+    width: 40%;
+    padding: 50px;
+}
+
+.about__text {
+    margin-bottom: 30px;
+}
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px){
   body{
