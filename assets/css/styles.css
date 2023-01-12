@@ -74,7 +74,7 @@ ul{
 a{
   text-decoration: none;
 }
-img{
+#image_portfolio{
   max-width: 100%;
   height: auto;
   display: block;
